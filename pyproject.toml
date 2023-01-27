@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "codegen-metrics"
+version = "0.1.0"
+description = "Replication package for the paper on evaluation of metrics for code generation"
+authors = ["Mikhail Evtikhiev <mikhail.evtikhiev@jetbrains.com>", "Egor Bogomolov <egor.bogomolov@jetbrains.com>"]
+readme = "README.md"
+packages = [
+#    {include = "metrics_evaluation"}
+]
+
+[tool.poetry.dependencies]
+python = "~3.9"
+click = "~8.1.3"
+pygments = "~2.14.0"
+editdistance = "~0.6.2"
+zss = "~1.2.0"
+pysimplegui = "~4.60.4"
+pytest = "~7.2.1"
+tqdm = "~4.64.1"
+matplotlib = "~3.6.3"
+dpu-utils = "~0.6.1"
+networkx = "~3.0"
+sacrebleu = "~2.3.1"
+scipy = "~1.10.0"
+func-timeout = "~4.3.5"
+typed-ast = "~1.5.4"
+tree-sitter = "~0.20.1"
+black = "~22.12.0"
+rouge-score = "~0.1.2"
+jupyter = "~1.0.0"
+crowd-kit = "~1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

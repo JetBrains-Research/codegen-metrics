@@ -1,0 +1,3 @@
+{"text": "[(i, sum(j) / len(j)) for i, j in list(d.items())]"}
+{"text": "df[['hour', 'weekday', 'weeknum']] = df.apply(lambdafunc, axis=1)"}
+{"text": "Article.objects.annotate(like_count=Count('likes')).order_by('-like_count')"}

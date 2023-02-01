@@ -15,6 +15,9 @@ To run metric computations, you will also need [tree-sitter](https://github.com/
 - To use it, run `git clone https://github.com/tree-sitter/tree-sitter-python.git build/tree-sitter-python`.
 
 ## Repository structure
+
+We expect all scripts to be run from the root directory of this repository.
+
 - `metrics_evaluation/grading` contains Python scripts that run simple GUI for grading HS and Conala datasets
 - `metrics_evaluation/metrics` contains code to run all the metrics studied in our work. For usage examples refer to `02-compute-metrics.ipynb`
 - `metrics_evaluation/metrics` contains code for bootstrapping and analysis. It is further used in `03-bootstrap.ipynb`

@@ -110,7 +110,7 @@ for (i, j) in mylist:
     sname = "grade-" + names[j]
     if sname not in dat[i]:
         window["-OUTPUT-"].update(dat[i][names[j]])
-        window["-IMAGE-"].update(filename="./hs_cards/" + str(i) + ".png")
+        window["-IMAGE-"].update(filename="./data/datasets/hs_cards/" + str(i) + ".png")
         while not successful:
             event, values = window.read()
             if event == "Exit" or event == sg.WIN_CLOSED:

@@ -13,6 +13,8 @@ To run grading scripts you will also need to install `tkinter`.
 
 To run metric computations, you will also need [tree-sitter](https://github.com/tree-sitter/tree-sitter). 
 - To use it, run `git clone https://github.com/tree-sitter/tree-sitter-python.git build/tree-sitter-python`.
+  - To make sure that you use the right version of tree, checkout the specific version:
+  - `cd build/tree-sitter-python && git checkout 9e53981` 
 
 ## Repository structure
 

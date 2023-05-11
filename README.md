@@ -1,5 +1,7 @@
 # Evaluation of metrics for code generation
-This is a replication package for [our work](https://arxiv.org/abs/2208.03133v1) on evaluation of code generation metris.
+This is a replication package for our work on evaluation of code generation metris.
+* Pre-print is available on [arXiv](https://arxiv.org/abs/2208.03133v1)
+* The article is [to be published soon in Journal of Systems and Software](https://www.sciencedirect.com/science/article/abs/pii/S016412122300136X)
 
 ## Setup
 
@@ -24,3 +26,18 @@ We expect all scripts to be run from the root directory of this repository.
 - `metrics_evaluation/metrics` contains code to run all the metrics studied in our work. For usage examples refer to `02-compute-metrics.ipynb`
 - `metrics_evaluation/metrics` contains code for bootstrapping and analysis. It is further used in `03-bootstrap.ipynb`
 - `data` directory contains all the data: intentions, generations from all models, human grades, etc.
+
+## Cite as
+```
+@article{evtikhiev2023metrics,
+title = {Out of the BLEU: How should we assess quality of the Code Generation models?},
+journal = {Journal of Systems and Software},
+pages = {111741},
+year = {2023},
+issn = {0164-1212},
+doi = {https://doi.org/10.1016/j.jss.2023.111741},
+url = {https://www.sciencedirect.com/science/article/pii/S016412122300136X},
+author = {Mikhail Evtikhiev and Egor Bogomolov and Yaroslav Sokolov and Timofey Bryksin},
+keywords = {Code generation, Metrics, Neural networks, Code similarity},
+}
+```

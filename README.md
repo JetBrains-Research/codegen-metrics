@@ -1,4 +1,7 @@
 # Evaluation of metrics for code generation
+
+![Research](https://jb.gg/badges/research-plastic.svg)
+
 This is a replication package for our work on evaluation of code generation metris.
 * Library for computation of code generation metrics is [available on PyPi](https://pypi.org/project/codegen-metrics/)
   * `pip install codegen-metrics`
